@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	background: #bcb1bb;
+}
+main{
+	width: 500px;
+	height: auto;
+	margin: 10px auto;
+	border: 1px solid #000;
+	background: #fff;
+	overflow: hidden;
+	border-radius: 10px;
+}
+table{
+	width: 100%;
+	height: auto;
+	border-collapse: collapse;
+	box-shadow: 0 1px 1px -2px rgba(0, 0, 0, 0.4) inset;
+}
+h3{
+	width: 100%;
+	height: auto;
+	display: block;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	background: #d6d6d6;
+}
+table tr:nth-child(2n+1){	
+	background: #d6d6d6;
+}
+table thead tr th{
+	background: #fff;
+	line-height: 30px;
+}
+table tr th{
+	font-size: 20px;
+	line-height: 30px;
+}
+table tr td{
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	padding: 5px 10px;
+	color: #19db31;
+}
+button{
+	width: 40px;
+	height: 30px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 30px;
+	background: #ff6700;
+	color: #fff;
+	cursor: pointer;
+}
+.addbut{
+	width: 40px;
+	height: 30px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 30px;
+	background: #ff6700;
+	color: #fff;
+	float: right;
+	margin-right: 18px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
